@@ -767,6 +767,28 @@ font-size: 16px;
 line-height: 28px;
 text-align: center;
 }
+ul.iner_cont1.first_fixed li.four_col1 ,ul.iner_cont1.second_fixed li.four_col1,ul.iner_cont1.third_fixed li.four_col1,
+ul.iner_cont1.second_fixed li.thir_col1,ul.iner_cont1.third_fixed li.thir_col1,ul.iner_cont1.fourth_fixed li.thir_col1,
+ul.iner_cont1.second_fixed li.seven_col1,ul.iner_cont1.third_fixed li.seven_col1,ul.iner_cont1.fourth_fixed li.seven_col1,
+ul.iner_cont1.second_fixed li.eight_col1,ul.iner_cont1.third_fixed li.eight_col1,ul.iner_cont1.fourth_fixed li.eight_col1
+{
+    padding: 28px 0px;
+}
+.infographic-wrapper.second_plan.desktop_view .top_prt.best_premium button.best_choice {
+    background: #9E0000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #9E0000;
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    border-radius: 15px;
+}
 /*************/
 @media only screen and (max-width: 1925px) and (min-width: 1670px) {
 .banner_section:after {
