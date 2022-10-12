@@ -1,7 +1,13 @@
+
+
+Skip to content
+Using DeepSphere.AI Inc Mail with screen readers
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=DM+Sans:wght@400;500;700&display=swap');
 
-body,p,h2{
-	font-family: 'Poppins';
+body{
+    font-family: 'Poppins' !important;
 }
 img {
     width: 100%;
@@ -1697,13 +1703,13 @@ color: #802525;
 }
 .grp-1 h5, .grp-3 h5{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 20px;
     color: #CF3C3C;
 }
 .grp-1 p, .grp-3 p{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     color: #585858;
 }
@@ -1900,6 +1906,9 @@ color: #802525;
 @media only screen and (min-width:320px) and (max-width:479px){
 
     /**/
+    section.faqsection{
+        padding: 130px 0;
+    }
     .grp-1, .grp-2, .grp-3{
         margin-top: 30px !important;
     }
@@ -1916,6 +1925,7 @@ color: #802525;
     .bm-1-sec h4 {
         font-size: 22px;
         line-height: 26px;
+        padding-top: 260px;
     }
     .frames{
         margin-top: 10px;
