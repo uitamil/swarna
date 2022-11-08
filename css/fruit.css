@@ -45,11 +45,15 @@ body{
 }
 .pro_detils h3 {
     font-size: 14px;
+    margin-top: 5px;
 }
 .pro1,.pro3 {
     border-right: 1px dashed #BE8219;
 }
-
+.pro1, .pro2, .pro3, .pro4 {
+    position: relative;
+    text-align: center;
+}
 span.pro_sub {
     font-size: 10px;
 }
@@ -61,6 +65,7 @@ span.pro_sub {
     display: inline-block;
     width: 29%;
 }
+
 .pro1 {
     border-bottom: 1px dashed #BE8219;
 }
@@ -70,10 +75,10 @@ span.pro_sub {
 .pro_detils span {
     display: block;
 }
-.pro_detils {
-    text-align: center;
-	width:405px;
-}
+/* .pro_detils { */
+    /* text-align: left; */
+	/* width:405px; */
+/* } */
 section.logo_prt {
     clear: both;
     background: #393939;
