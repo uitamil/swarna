@@ -676,6 +676,20 @@ ul.iner_cont.second_fixed:after,ul.iner_cont.third_fixed:after {
     border: 1px solid #FFBB28;
     height: 253px;
 }
+ul.iner_cont.fourth_fixed:after{
+	 content: '';
+    position: absolute;
+    bottom: 40px;
+    right: -28px;
+    margin: 0 auto;
+    width: 25px;
+    height: 0;
+    background: #FFBB28;
+    border: 1px solid #FFBB28;
+	border-top-right-radius: 70px;
+	border-bottom-right-radius: 70px;
+    height: 253px;
+}
 .infographic-items h2.premium_offer{
 	  color:#252525;
       margin-bottom: 0px;
