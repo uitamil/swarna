@@ -918,3 +918,29 @@ color: #8D8D8D;
 }
 
 /*Form*/
+
+@media only screen and (max-width: 1985px) and (min-width: 1970px){
+.slider_sec {
+    margin-top: -10% !important;
+}
+.grey-diagonal-section-wrapper.white_diag {
+    margin-top: -88px !important;
+}
+}
+@media only screen and (max-width: 1985px) and (min-width: 1600px){
+section.replacement_sec {
+    margin-top: 85px;
+}
+.slider_sec {
+    margin-top: -11%;
+}
+.grey-diagonal-section-wrapper.white_diag {
+    margin-top: -76px;
+}
+}
+
+@media only screen and (max-width: 1445px) and (min-width: 1435px){
+section.replacement_sec {
+    margin-top: 63px;
+}
+}
