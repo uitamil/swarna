@@ -40,7 +40,7 @@ body{
     /* margin: 0 auto; */
 /* } */
 .pro_detils img {
-    width: 25px;
+    width: 30px;
     margin: 10px 0px;
 }
 .pro_detils h3 {
@@ -525,7 +525,7 @@ h2.pre_offer {
 
 h2.benefit {
     background: #0D7053;
-    border-radius: 74px 0px 0px 0px;
+    border-radius: 60px 0px 0px 0px;
     margin-bottom: 0px;
     position: absolute;
     bottom: 0px;
@@ -655,8 +655,8 @@ section.third_bner {
   display: block;
   width:100%;
   text-align: center;
-  font-size:18px;
-  padding-top: 30px;
+  font-size:22px;
+  padding-top: 15px;
   position:absolute;
   bottom: 0px;
   font-family: 'Poppins';
@@ -719,6 +719,12 @@ h3.freecls{
 font-style: normal;
 font-weight: 600;
 }
+.top_prt.best_premium h3.freecls {
+    background: #CC941C;
+}
+.top_prt.better_premium h3.freecls {
+    background: #BD7171;
+}
 span.savecls{
     display: inline-block;
     background: #FFAC0F;
@@ -726,6 +732,7 @@ span.savecls{
     text-align: center;
     width: 85px;
     font-size: 14px;
+	font-weight: 400;
 }
 span.whole_we {
     display: flex;
@@ -735,6 +742,7 @@ span.whole_we {
 span.fre_we {
     width: 68%;
 	padding-left: 5px;
+	font-weight: 400;
 }
 h4.valcls{
 	color: rgba(0, 0, 0, 0.59);
@@ -745,10 +753,10 @@ h4.valcls{
   padding-top: 0px;
   font-size:15px;
   position:absolute;
-  top: 80px;
+  top: 75px;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 }
 img.frucls{
 				  color:#FFC444;
@@ -770,7 +778,7 @@ font-weight: 600;
 
 ul.iner_cont.first_fixed {
     background: #FFBB28;
-    border-radius: 0px 0px 0px 74px;
+    border-radius: 0px 0px 0px 60px;
     padding: 0px;
 	width:100%;
     margin-left: 20px;
@@ -778,7 +786,7 @@ ul.iner_cont.first_fixed {
 
 ul.iner_cont li {
     list-style: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.2);
 	    text-align: center;
 	    padding: 20px 10px;
 }
@@ -789,7 +797,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 15px;
 line-height: 1.5;
-color: #FFFFFF;
+color: #393939;;
 }
 .whole_info {
     background: #FFFFFF;
@@ -825,12 +833,12 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 .enroll_now {
     position: absolute;
     bottom: -30px;
-    left: 10px;
-    right: 10px;
+    left: 15px;
+    right: 12px;
     background: #9E0000;
     border-radius: 22px;
     display: inline-block;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -841,6 +849,12 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     font-size: 15px;
     line-height: 1.5;
     color: #FFFFFF;
+}
+a:hover{
+	text-decoration:none;
+}
+.enroll_now:hover{
+	  background: #FFBB28;
 }
 ul.iner_cont li.thir_col,ul.iner_cont.fourth_fixed li.thir_col{
 	border-bottom:0px;
@@ -901,6 +915,9 @@ height: 450px;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
+}
+.ff-a a:hover {
+	background:#FFBB28;
 }
 .ff-a a {
     background: #9E0000;
