@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-in" dir="ltr"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Web page</title> 
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://www.skholla.in/css/user/bootstrap.css">
+		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"  />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"  />
+		
+		<!--script-->
+		  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+		<script src="https://www.skholla.in/js/user/bootstrap.min.js" ></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+  <style>
+  .inner_prt{   
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+	}
+ .flex-slide {
+    flex: 1;
+    cursor: pointer;
+    transition: all 1000ms ease;
+    position: relative;
+    overflow: hidden;
+}
+.flex-slide.active{
+    flex: 0 0 40%;
+}
+.main_prt_cls {
+    position: relative;
+    margin: 0 auto;
+}
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.main_prt_cls{
+position: absolute;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+	height:600px;
+	}
+	.flex-slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 101%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 101% !important;
+    cursor: default;
+}
+ .flex-slide.active .dynamic-images-cta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    background-color: #444141;
+    opacity: .65;
+    transition: ease-in .4s;
+}
+.flex-slide:not(.active) .dynamic-images-cta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    opacity: 0 !important;
+    transition: ease-in .4s;
+}
+.button {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 15px;
+    padding: 0.75rem 1.875rem;
+    background: #1f1f1f;
+    text-decoration: none;
+	text-align:center;
+    line-height: 1.125rem;
+}
+  </style>
+<body> 
+
+	<div class="main_cls">
+		<h2 class="h1 text-center">Sample</h2> 
+		<div class="main_prt_cls">
+		<div tabindex="0" data-image-position="1" class="flex-slide active">
+			<div class="inner_prt">
+				<div class="img_prt">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/mangalsutra/1000x600-1.1_zy0dc8" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		<div tabindex="0" data-image-position="2" class="flex-slide">
+			<div class="inner_prt">
+				<div class="img_prt">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/serpenti/1000x600_2_cl5krr" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div tabindex="0" data-image-position="3" class="flex-slide">
+			<div class="inner_prt">
+				<div class="img_prt">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/mangalsutra/1000x600-1.1_zy0dc8" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		<div tabindex="0" data-image-position="4" class="flex-slide">
+			<div class="inner_prt">
+				<div class="img_prt">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/serpenti/1000x600_2_cl5krr" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div tabindex="0" data-image-position="5" class="flex-slide" style="display:none;">
+			<div class="inner_prt">
+				<div class="img_prt">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/mangalsutra/1000x600-1.1_zy0dc8" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		</div>
+	</div>
+<script>
+$(".flex-slide").hover(
+  function () {
+    $(this).addClass("active");
+  },
+  function () {
+    $(this).removeClass("active");
+  }
+);
+</script>
+ </body>
+</html>
