@@ -90,12 +90,35 @@ position: absolute;
 	text-align:center;
     line-height: 1.125rem;
 }
+.slider_sec.mobile_prt{
+display:none;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+.foo_sli .button {
+    width: 100% !important;
+    text-align: center;
+    display: block;
+}
+.slider_sec.mobile_prt{
+display:block;
+}
+.desktop_view{
+display:none;
+}
+.slick-next{
+right:0px;
+}
+.slick-prev{
+left:0px;
+z-index:99;
+}
+}
   </style>
 <body> 
 
 	<div class="main_cls">
 		<h2 class="h1 text-center">Sample</h2> 
-		<div class="main_prt_cls">
+		<div class="main_prt_cls desktop_view">
 		<div tabindex="0" data-image-position="1" class="flex-slide active">
 			<div class="inner_prt">
 				<div class="img_prt">
@@ -181,7 +204,59 @@ position: absolute;
 		
 		
 		</div>
+		
+			<div class="slider_sec mobile_prt">
+			<div class="container">
+				<div class="Fruitslider">
+				  <div class="fruit_sol"><div class="foo_sli">	<div class="img_prt1">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/mangalsutra/1000x600-1.1_zy0dc8" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt1">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div></div></div>
+				
+				  <div class="fruit_sol"><div class="foo_sli">	<div class="img_prt1">
+					<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/serpenti/1000x600_2_cl5krr" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt1">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div></div></div>
+				
+				  <div class="fruit_sol"><div class="foo_sli">	<div class="img_prt1">
+				<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/mangalsutra/1000x600-1.1_zy0dc8" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt1">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div></div></div>
+				
+				  <div class="fruit_sol"><div class="foo_sli">	<div class="img_prt1">
+					<img class="component-media_library ml-image" src="https://res.cloudinary.com/bulgari/image/upload/f_auto,q_auto,h_600/v1/homepage/serpenti/1000x600_2_cl5krr" style="max-width: 100%" > 
+				</div>
+				<div class="text_prt1">
+				<a class="button dynamic-images-cta" href="#" title=" Discover" data-tracking="button" data-tracking-position="0" style="
+					background-color: #ffffff;
+					color: #000000;
+					opacity: 0.65
+				"> Discover </a> 
+				</div></div></div>
+				  
+				</div>
+			</div>
+		</div>
 	</div>
+	
 <script>
 $(".flex-slide").hover(
   function () {
@@ -191,6 +266,31 @@ $(".flex-slide").hover(
     $(this).removeClass("active");
   }
 );
+</script>
+<script>
+	  
+$('.Fruitslider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:true,
+   autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+});
 </script>
  </body>
 </html>
